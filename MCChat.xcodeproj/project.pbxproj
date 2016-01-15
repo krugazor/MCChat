@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3787A82A1C43D585000E9359 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787A8291C43D585000E9359 /* AppDelegate.m */; };
+		3787A82D1C43D585000E9359 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787A82C1C43D585000E9359 /* main.m */; };
+		3787A8301C43D585000E9359 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787A82F1C43D585000E9359 /* ViewController.m */; };
+		3787A8321C43D585000E9359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3787A8311C43D585000E9359 /* Assets.xcassets */; };
+		3787A8351C43D585000E9359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3787A8331C43D585000E9359 /* Main.storyboard */; };
+		3787A8451C43D5D1000E9359 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787A8441C43D5D1000E9359 /* main.m */; };
+		3787A8481C43D5D1000E9359 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787A8471C43D5D1000E9359 /* AppDelegate.m */; };
+		3787A84B1C43D5D1000E9359 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787A84A1C43D5D1000E9359 /* ViewController.m */; };
+		3787A84E1C43D5D1000E9359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3787A84C1C43D5D1000E9359 /* Main.storyboard */; };
+		3787A8501C43D5D1000E9359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3787A84F1C43D5D1000E9359 /* Assets.xcassets */; };
+		3787A8531C43D5D1000E9359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3787A8511C43D5D1000E9359 /* LaunchScreen.storyboard */; };
+		3787A87B1C43DA52000E9359 /* NZChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787A87A1C43DA52000E9359 /* NZChatManager.m */; };
+		3787A87C1C43DA52000E9359 /* NZChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787A87A1C43DA52000E9359 /* NZChatManager.m */; };
+		3787A87E1C43DA87000E9359 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3787A87D1C43DA87000E9359 /* MultipeerConnectivity.framework */; };
+		3787A8801C43DA99000E9359 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3787A87F1C43DA99000E9359 /* MultipeerConnectivity.framework */; };
+		3787A8831C43DBBF000E9359 /* NZChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787A8821C43DBBF000E9359 /* NZChatMessage.m */; };
+		3787A8841C43DBBF000E9359 /* NZChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3787A8821C43DBBF000E9359 /* NZChatMessage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3787A8251C43D585000E9359 /* MCChatMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCChatMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3787A8281C43D585000E9359 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3787A8291C43D585000E9359 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3787A82C1C43D585000E9359 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3787A82E1C43D585000E9359 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3787A82F1C43D585000E9359 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3787A8311C43D585000E9359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3787A8341C43D585000E9359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3787A8361C43D585000E9359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3787A8411C43D5D1000E9359 /* MCChatiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCChatiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3787A8441C43D5D1000E9359 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3787A8461C43D5D1000E9359 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3787A8471C43D5D1000E9359 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3787A8491C43D5D1000E9359 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3787A84A1C43D5D1000E9359 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3787A84D1C43D5D1000E9359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3787A84F1C43D5D1000E9359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3787A8521C43D5D1000E9359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3787A8541C43D5D1000E9359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3787A8791C43DA52000E9359 /* NZChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZChatManager.h; sourceTree = "<group>"; };
+		3787A87A1C43DA52000E9359 /* NZChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZChatManager.m; sourceTree = "<group>"; };
+		3787A87D1C43DA87000E9359 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		3787A87F1C43DA99000E9359 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		3787A8811C43DBBF000E9359 /* NZChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZChatMessage.h; sourceTree = "<group>"; };
+		3787A8821C43DBBF000E9359 /* NZChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZChatMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3787A8221C43D585000E9359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3787A87E1C43DA87000E9359 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3787A83E1C43D5D1000E9359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3787A8801C43DA99000E9359 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3787A81C1C43D585000E9359 = {
+			isa = PBXGroup;
+			children = (
+				3787A8581C43D60C000E9359 /* Common */,
+				3787A8271C43D585000E9359 /* MCChatMac */,
+				3787A8421C43D5D1000E9359 /* MCChatiOS */,
+				3787A8261C43D585000E9359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3787A8261C43D585000E9359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3787A8251C43D585000E9359 /* MCChatMac.app */,
+				3787A8411C43D5D1000E9359 /* MCChatiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3787A8271C43D585000E9359 /* MCChatMac */ = {
+			isa = PBXGroup;
+			children = (
+				3787A8591C43D799000E9359 /* BubbleView */,
+				3787A8281C43D585000E9359 /* AppDelegate.h */,
+				3787A8291C43D585000E9359 /* AppDelegate.m */,
+				3787A82E1C43D585000E9359 /* ViewController.h */,
+				3787A82F1C43D585000E9359 /* ViewController.m */,
+				3787A8311C43D585000E9359 /* Assets.xcassets */,
+				3787A8331C43D585000E9359 /* Main.storyboard */,
+				3787A8361C43D585000E9359 /* Info.plist */,
+				3787A82B1C43D585000E9359 /* Supporting Files */,
+			);
+			name = MCChatMac;
+			path = MCChat;
+			sourceTree = "<group>";
+		};
+		3787A82B1C43D585000E9359 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3787A87D1C43DA87000E9359 /* MultipeerConnectivity.framework */,
+				3787A82C1C43D585000E9359 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3787A8421C43D5D1000E9359 /* MCChatiOS */ = {
+			isa = PBXGroup;
+			children = (
+				3787A8461C43D5D1000E9359 /* AppDelegate.h */,
+				3787A8471C43D5D1000E9359 /* AppDelegate.m */,
+				3787A8491C43D5D1000E9359 /* ViewController.h */,
+				3787A84A1C43D5D1000E9359 /* ViewController.m */,
+				3787A84C1C43D5D1000E9359 /* Main.storyboard */,
+				3787A84F1C43D5D1000E9359 /* Assets.xcassets */,
+				3787A8511C43D5D1000E9359 /* LaunchScreen.storyboard */,
+				3787A8541C43D5D1000E9359 /* Info.plist */,
+				3787A8431C43D5D1000E9359 /* Supporting Files */,
+			);
+			path = MCChatiOS;
+			sourceTree = "<group>";
+		};
+		3787A8431C43D5D1000E9359 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3787A87F1C43DA99000E9359 /* MultipeerConnectivity.framework */,
+				3787A8441C43D5D1000E9359 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3787A8581C43D60C000E9359 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3787A8791C43DA52000E9359 /* NZChatManager.h */,
+				3787A87A1C43DA52000E9359 /* NZChatManager.m */,
+				3787A8811C43DBBF000E9359 /* NZChatMessage.h */,
+				3787A8821C43DBBF000E9359 /* NZChatMessage.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3787A8591C43D799000E9359 /* BubbleView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BubbleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3787A8241C43D585000E9359 /* MCChatMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3787A8391C43D585000E9359 /* Build configuration list for PBXNativeTarget "MCChatMac" */;
+			buildPhases = (
+				3787A8211C43D585000E9359 /* Sources */,
+				3787A8221C43D585000E9359 /* Frameworks */,
+				3787A8231C43D585000E9359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCChatMac;
+			productName = MCChat;
+			productReference = 3787A8251C43D585000E9359 /* MCChatMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3787A8401C43D5D1000E9359 /* MCChatiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3787A8551C43D5D1000E9359 /* Build configuration list for PBXNativeTarget "MCChatiOS" */;
+			buildPhases = (
+				3787A83D1C43D5D1000E9359 /* Sources */,
+				3787A83E1C43D5D1000E9359 /* Frameworks */,
+				3787A83F1C43D5D1000E9359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCChatiOS;
+			productName = MCChatiOS;
+			productReference = 3787A8411C43D5D1000E9359 /* MCChatiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3787A81D1C43D585000E9359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nicolas Zinovieff";
+				TargetAttributes = {
+					3787A8241C43D585000E9359 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3787A8401C43D5D1000E9359 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6HB7PWSP22;
+					};
+				};
+			};
+			buildConfigurationList = 3787A8201C43D585000E9359 /* Build configuration list for PBXProject "MCChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3787A81C1C43D585000E9359;
+			productRefGroup = 3787A8261C43D585000E9359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3787A8241C43D585000E9359 /* MCChatMac */,
+				3787A8401C43D5D1000E9359 /* MCChatiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3787A8231C43D585000E9359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3787A8321C43D585000E9359 /* Assets.xcassets in Resources */,
+				3787A8351C43D585000E9359 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3787A83F1C43D5D1000E9359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3787A8531C43D5D1000E9359 /* LaunchScreen.storyboard in Resources */,
+				3787A8501C43D5D1000E9359 /* Assets.xcassets in Resources */,
+				3787A84E1C43D5D1000E9359 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3787A8211C43D585000E9359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3787A8301C43D585000E9359 /* ViewController.m in Sources */,
+				3787A87B1C43DA52000E9359 /* NZChatManager.m in Sources */,
+				3787A8831C43DBBF000E9359 /* NZChatMessage.m in Sources */,
+				3787A82D1C43D585000E9359 /* main.m in Sources */,
+				3787A82A1C43D585000E9359 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3787A83D1C43D5D1000E9359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3787A84B1C43D5D1000E9359 /* ViewController.m in Sources */,
+				3787A87C1C43DA52000E9359 /* NZChatManager.m in Sources */,
+				3787A8841C43DBBF000E9359 /* NZChatMessage.m in Sources */,
+				3787A8481C43D5D1000E9359 /* AppDelegate.m in Sources */,
+				3787A8451C43D5D1000E9359 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3787A8331C43D585000E9359 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3787A8341C43D585000E9359 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3787A84C1C43D5D1000E9359 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3787A84D1C43D5D1000E9359 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3787A8511C43D5D1000E9359 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3787A8521C43D5D1000E9359 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3787A8371C43D585000E9359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3787A8381C43D585000E9359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3787A83A1C43D585000E9359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MCChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.krugazor.MCChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3787A83B1C43D585000E9359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MCChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.krugazor.MCChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3787A8561C43D5D1000E9359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MCChatiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.krugazor.MCChatiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3787A8571C43D5D1000E9359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MCChatiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.krugazor.MCChatiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3787A8201C43D585000E9359 /* Build configuration list for PBXProject "MCChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3787A8371C43D585000E9359 /* Debug */,
+				3787A8381C43D585000E9359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3787A8391C43D585000E9359 /* Build configuration list for PBXNativeTarget "MCChatMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3787A83A1C43D585000E9359 /* Debug */,
+				3787A83B1C43D585000E9359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3787A8551C43D5D1000E9359 /* Build configuration list for PBXNativeTarget "MCChatiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3787A8561C43D5D1000E9359 /* Debug */,
+				3787A8571C43D5D1000E9359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3787A81D1C43D585000E9359 /* Project object */;
+}
